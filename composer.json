@@ -1,11 +1,16 @@
 {
     "name": "zyb/hdline",
     "description": "The transformation between hump and underline",
-    "license": "MIT",
     "require": {},
     "autoload": {
         "psr-4": {
             "HDLine\\": "src/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer"
         }
     }
 }
