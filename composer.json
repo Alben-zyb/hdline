@@ -1,11 +1,20 @@
 {
     "name": "zyb/hdline",
     "description": "The transformation between hump and underline",
-    "require": {},
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "HDLine\\": "src/"
         }
+    },
+    "authors": [
+        {
+            "name": "zyb",
+            "email": "alben_zyb@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
     },
     "repositories": {
         "packagist": {
